@@ -1,4 +1,4 @@
 {
-  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }],
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "routes": [{ "src": "/[^.]+", "dist": "/", "status": 200 }],
+  "rewrites": [{ "src": "/(.*)", "dist": "/index.html" }]
 }
